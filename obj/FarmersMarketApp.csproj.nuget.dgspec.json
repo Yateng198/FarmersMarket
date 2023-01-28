@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS_Projects\\FarmersMarketApp\\FarmersMarketApp.csproj": {}
+    "E:\\VS_Projects\\Repos\\FarmersMarketApp.csproj": {}
   },
   "projects": {
-    "E:\\VS_Projects\\FarmersMarketApp\\FarmersMarketApp.csproj": {
+    "E:\\VS_Projects\\Repos\\FarmersMarketApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS_Projects\\FarmersMarketApp\\FarmersMarketApp.csproj",
+        "projectUniqueName": "E:\\VS_Projects\\Repos\\FarmersMarketApp.csproj",
         "projectName": "FarmersMarketApp",
-        "projectPath": "E:\\VS_Projects\\FarmersMarketApp\\FarmersMarketApp.csproj",
+        "projectPath": "E:\\VS_Projects\\Repos\\FarmersMarketApp.csproj",
         "packagesPath": "C:\\Users\\Yateng\\.nuget\\packages\\",
-        "outputPath": "E:\\VS_Projects\\FarmersMarketApp\\obj\\",
+        "outputPath": "E:\\VS_Projects\\Repos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

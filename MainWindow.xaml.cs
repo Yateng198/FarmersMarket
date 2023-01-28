@@ -21,14 +21,6 @@ namespace FarmersMarketApp
     /// </summary>
     public partial class MainWindow : Window
     {
-
-         public SqlConnection con = new SqlConnection("Data Source=DESKTOP-1AHTENP;Initial Catalog=FarmersMarket;Integrated Security=True;Pooling=False");
-        //SqlCommand cmd, cmd1;
-        //SqlDataReader reader;
-        public SqlConnection GetSqlConnection()
-        {
-            return con;
-        }
         public MainWindow()
         {
             InitializeComponent();
