@@ -10,7 +10,7 @@
         <Grid.Background>
             <ImageBrush Stretch="Fill"/>
         </Grid.Background>
-        <Button Content="Home Page" HorizontalAlignment="Left" Margin="442,349,0,0" VerticalAlignment="Top" Height="42" Width="264" Click="Button_Click" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontSize="16">
+        <Button Content="Home Page" HorizontalAlignment="Left" Margin="442,349,0,0" VerticalAlignment="Top" Height="42" Width="264" Click="Home_Button_Click" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" FontSize="16">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -25,7 +25,7 @@
         <TextBox x:Name="p_price" HorizontalAlignment="Left" Margin="377,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" FontSize="16"/>
         <TextBox x:Name="p_amount" HorizontalAlignment="Left" Margin="377,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" FontSize="16"/>
         <TextBox x:Name="p_id" HorizontalAlignment="Left" Margin="377,87,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" FontSize="16"/>
-        <Button x:Name="update" Content="Update" Margin="442,277,0,0" VerticalAlignment="Top" Height="42" Width="102" Click="Button_Click3" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0" FontSize="16" HorizontalAlignment="Left">
+        <Button x:Name="update" Content="Update" Margin="442,277,0,0" VerticalAlignment="Top" Height="42" Width="102" Click="Update_Button_Click" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0" FontSize="16" HorizontalAlignment="Left">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -35,7 +35,7 @@
                 <StaticResource ResourceKey="{x:Static ToolBar.ButtonStyleKey}"/>
             </Button.Style>
         </Button>
-        <Button x:Name="insert" Content="Insert" HorizontalAlignment="Left" Margin="127,277,0,0" VerticalAlignment="Top" Height="42" Width="102" Click="Button_Click1" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0" FontSize="16">
+        <Button x:Name="insert" Content="Insert" HorizontalAlignment="Left" Margin="127,277,0,0" VerticalAlignment="Top" Height="42" Width="102" Click="Insert_Button_Click" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0" FontSize="16">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -45,7 +45,7 @@
                 <StaticResource ResourceKey="{x:Static ToolBar.ButtonStyleKey}"/>
             </Button.Style>
         </Button>
-        <Button x:Name="delete" Content="Delete" HorizontalAlignment="Left" Margin="298,277,0,0" VerticalAlignment="Top" Height="42" Width="102" Click="Button_Click2" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0" FontSize="16">
+        <Button x:Name="delete" Content="Delete" HorizontalAlignment="Left" Margin="298,277,0,0" VerticalAlignment="Top" Height="42" Width="102" Click="Delete_Button_Click" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0" FontSize="16">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -55,7 +55,7 @@
                 <StaticResource ResourceKey="{x:Static ToolBar.ButtonStyleKey}"/>
             </Button.Style>
         </Button>
-        <Button x:Name="search" Content="Search" HorizontalAlignment="Left" Margin="604,277,0,0" VerticalAlignment="Top" Height="42" Width="102" Click="Button_Click4" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0" FontSize="16">
+        <Button x:Name="search" Content="Search" HorizontalAlignment="Left" Margin="604,277,0,0" VerticalAlignment="Top" Height="42" Width="102" Click="Search_Button_Click" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0" FontSize="16">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>
@@ -65,7 +65,7 @@
                 <StaticResource ResourceKey="{x:Static ToolBar.ButtonStyleKey}"/>
             </Button.Style>
         </Button>
-        <Button Content="List All Data" HorizontalAlignment="Left" Margin="127,349,0,0" VerticalAlignment="Top" Height="42" Width="273" Click="Button_Click5" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0" FontSize="16">
+        <Button Content="List All Data" HorizontalAlignment="Left" Margin="127,349,0,0" VerticalAlignment="Top" Height="42" Width="273" Click="List_All_Button_Click" Background="{x:Null}" FontWeight="Bold" FontStretch="SemiCondensed" FontFamily="Comic Sans MS" Opacity="0.6"  BorderThickness="0" FontSize="16">
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="5"/>

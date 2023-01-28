@@ -22,23 +22,21 @@ namespace FarmersMarketApp
     {
 
         SqlConnection con;
-        SqlDataReader reader;
         public Admin()
         {
             InitializeComponent();
-            MainWindow mw = new MainWindow();
-            con = mw.GetSqlConnection();
+            con = new SqlConnection("Data Source=DESKTOP-1AHTENP;Initial Catalog=FarmersMarket;Integrated Security=True;Pooling=False");
             con.Open();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Home_Button_Click(object sender, RoutedEventArgs e)
         {
             MainWindow mw = new MainWindow();
             mw.Show();
             this.Close();
         }
 
-        private void Button_Click1(object sender, RoutedEventArgs e)
+        private void Insert_Button_Click(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -60,7 +58,7 @@ namespace FarmersMarketApp
             }
         }
 
-        private void Button_Click2(object sender, RoutedEventArgs e)
+        private void Delete_Button_Click(object sender, RoutedEventArgs e)
         {
             try
             {
@@ -72,7 +70,7 @@ namespace FarmersMarketApp
                 readerCmd.Parameters.AddWithValue("@Id", int.Parse(p_id.Text));
                 
 
-                reader = readerCmd.ExecuteReader();
+                SqlDataReader reader = readerCmd.ExecuteReader();
 
                 string name = "";
                 string amount = "";
@@ -91,24 +89,58 @@ namespace FarmersMarketApp
             }
         }
 
-        private void Button_Click3(object sender, RoutedEventArgs e)
+        private void Update_Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mw = new MainWindow();
-            mw.Show();
-            this.Close();
+            
+            try
+            {
+                string query = "update ProductTable set Productname = @name, Amount = @amount, Price = @price where ProductId = @Id";
+                SqlCommand cmd = new SqlCommand(query, con);
+                cmd.Parameters.AddWithValue("@Id", int.Parse(p_id.Text));
+                cmd.Parameters.AddWithValue("@name", p_name.Text);
+                cmd.Parameters.AddWithValue("@amount", int.Parse(p_amount.Text));
+                cmd.Parameters.AddWithValue("@price", float.Parse(p_price.Text));
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Data updated into database successfully!");
+
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
         }
 
-        private void Button_Click4(object sender, RoutedEventArgs e)
+        private void Search_Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mw = new MainWindow();
-            mw.Show();
-            this.Close();
+            try
+            {
+                string qury = "select ProductName, Amount, Price from ProductTable where ProductId = @Id";
+                SqlCommand cmd = new SqlCommand(qury, con);
+                cmd.Parameters.AddWithValue("@Id", int.Parse(p_id.Text));
+                SqlDataReader reader = cmd.ExecuteReader();
+
+
+                while (reader.Read())
+                {
+                    p_name.Text = reader.GetValue(0).ToString();
+                    p_amount.Text = reader.GetValue(1).ToString();
+                    p_price.Text = reader.GetValue(2).ToString();
+                }
+
+                reader.Close();
+                MessageBox.Show("With ID " + p_id.Text.ToString() + ", we found " + p_amount.Text + "kg " + p_name.Text + " with price " + p_price.Text + " CAD/kg in database");
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
 
-        private void Button_Click5(object sender, RoutedEventArgs e)
+        private void List_All_Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mw = new MainWindow();
-            mw.Show();
+            ListAll ls = new ListAll();
+            ls.Show();
             this.Close();
         }
     }
