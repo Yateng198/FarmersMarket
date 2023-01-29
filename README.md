@@ -1,8 +1,7 @@
 # FarmersMarket
 Group project Assignment for AppDev
 
-
-##Main Window will be just 2 buttons:<br />
+Main Window will be just 2 buttons:<br />
 Admin: Goes to admin window, administrator will be able to insert/ Delete/ Update and Search product in this window.<br />
 Customer: Goes to customer window, will be able to place order ...TBD
 
