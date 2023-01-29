@@ -27,6 +27,11 @@ namespace FarmersMarketApp
 
         }
 
+        public object getLocker()
+        {
+            return new object();
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Admin ad = new Admin();

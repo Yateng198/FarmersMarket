@@ -20,7 +20,7 @@
         <Label Content="Product Name" HorizontalAlignment="Left" Margin="208,29,0,0" FontFamily="Comic Sans MS" VerticalAlignment="Top" FontSize="16" Width="142" Foreground="#FF171616"/>
         <Label Content="Product ID" HorizontalAlignment="Left" Margin="208,82,0,0" FontFamily="Comic Sans MS" VerticalAlignment="Top" FontSize="16" Width="142" Foreground="#FF171616"/>
         <Label Content="Amount ( kg )" HorizontalAlignment="Left" Margin="208,143,0,0" FontFamily="Comic Sans MS" VerticalAlignment="Top" FontSize="16" Width="142" Foreground="#FF171616"/>
-        <Label Content="Price (CAD) / kg" HorizontalAlignment="Left" Margin="208,0,0,0" FontFamily="Comic Sans MS" VerticalAlignment="Center" FontSize="16" Width="142" Foreground="#FF171616"/>
+        <Label Content="Price (CAD) / kg" HorizontalAlignment="Left" Margin="192,205,0,0" FontFamily="Comic Sans MS" VerticalAlignment="Top" FontSize="16" Width="142" Foreground="#FF171616"/>
         <TextBox x:Name="p_name" HorizontalAlignment="Left" Margin="377,34,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" FontSize="16"/>
         <TextBox x:Name="p_price" HorizontalAlignment="Left" Margin="377,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" FontSize="16"/>
         <TextBox x:Name="p_amount" HorizontalAlignment="Left" Margin="377,148,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="231" FontSize="16"/>
