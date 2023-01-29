@@ -20,7 +20,7 @@
         </Button>
 
 
-        <DataGrid x:Name="dataGrid" TextBlock.TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" d:ItemsSource="{d:SampleData ItemCount=3}" FontFamily="Comic Sans MS" Margin="0,39,0,0" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" Height="284" Width="616" ColumnWidth="154"   BorderThickness="0,0,0,0" >
+        <DataGrid x:Name="dataGrid" TextBlock.TextAlignment="Center" HorizontalAlignment="Center" VerticalAlignment="Top" d:ItemsSource="{d:SampleData ItemCount=3}" FontFamily="Comic Sans MS" Margin="0,39,0,0" FontSize="16" Background="{x:Null}" BorderBrush="{x:Null}" Height="284" Width="612" ColumnWidth="154"   BorderThickness="0,0,0,0" >
             <DataGrid.ColumnHeaderStyle>
                 <Style TargetType="DataGridColumnHeader">
                     <Setter Property="HorizontalContentAlignment" Value="Center">

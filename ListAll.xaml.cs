@@ -13,38 +13,62 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Threading;
 
 namespace FarmersMarketApp
 {
     /// <summary>
     /// Interaction logic for ListAll.xaml
     /// </summary>
+    /// 
+
     public partial class ListAll : Window
     {
+        //Display all data information in DB in this page with DataGrid
         public ListAll()
         {
             InitializeComponent();
+            listDB();
+        }
 
+        //Task-await-async control threading synchronization
+        private async void listDB()
+        {
+            //Set up connection 
             SqlConnection con = new SqlConnection("Data Source=DESKTOP-1AHTENP;Initial Catalog=FarmersMarket;Integrated Security=True;Pooling=False");
-
             try
             {
-                con.Open();
-                string query = "Select ProductId, ProductName, Amount, Price from ProductTable";
-                SqlCommand cmd = new SqlCommand(query, con);
-                cmd.ExecuteNonQuery();
+                await Task.Run(() =>
+                {
+                    //Open the connection
+                    con.Open();
+                    string query = "Select ProductId, ProductName, Amount, Price from ProductTable";
+                    SqlCommand cmd = new SqlCommand(query, con);
 
-                SqlDataAdapter adapter = new SqlDataAdapter(cmd);
-                DataTable dt = new DataTable("ProductTable");
-                adapter.Fill(dt);
-                dataGrid.ItemsSource = dt.DefaultView;
-                
-                adapter.Update(dt);
-                con.Close();
+                    //Execute the query to get all data in this DB
+                    cmd.ExecuteNonQuery();
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                    DataTable dt = new DataTable("ProductTable");
+                    adapter.Fill(dt);
+
+                    //Current thread communicate with UI thread to change UI display information
+                    Application.Current.Dispatcher.Invoke(new Action(() =>
+                    {
+                        dataGrid.ItemsSource = dt.DefaultView;
+                    }));
+                    adapter.Update(dt);
+                    
+                });
             }
             catch (SqlException ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                //close connection
+                con.Close();
             }
         }
 
@@ -62,9 +86,6 @@ namespace FarmersMarketApp
             this.Close();
         }
 
-        private void dataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
+        
     }
 }
