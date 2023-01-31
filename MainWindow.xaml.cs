@@ -41,8 +41,8 @@ namespace FarmersMarketApp
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            Customer cust = new Customer();
-            cust.Show();
+            Sales sale = new Sales();
+            sale.Show();
             this.Close();
         }
     }

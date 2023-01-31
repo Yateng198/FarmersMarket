@@ -31,7 +31,7 @@ namespace FarmersMarketApp
             InitializeComponent();
             //set up and open connection for this whole page, so that using a single connection with the DB
             //Ensure that data are synchronized
-            con = new SqlConnection("Data Source=DESKTOP-1AHTENP;Initial Catalog=FarmersMarket;Integrated Security=True;Pooling=False");
+            con = new SqlConnection("Data Source=LAPTOP-DT6BMRBG;Initial Catalog=final;Integrated Security=True");
             con.Open();
 
         }

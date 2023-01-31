@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\VS_Projects\Repos\obj\Debug\net6.0-windows\
+D:\coding\visual studio 2022\assignment1\FarmersMarket\obj\Debug\net6.0-windows\
 FarmersMarketApp
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-E:\VS_Projects\Repos\App.xaml
-4-752235084
+D:\coding\visual studio 2022\assignment1\FarmersMarket\App.xaml
+4-759479687
 
-8513231421
-195-298629493
-Admin.xaml;Customer.xaml;ListAll.xaml;MainWindow.xaml;
+8331225463
+195-1743989765
+Admin.xaml;ListAll.xaml;MainWindow.xaml;Sales.xaml;
 
 True
 
