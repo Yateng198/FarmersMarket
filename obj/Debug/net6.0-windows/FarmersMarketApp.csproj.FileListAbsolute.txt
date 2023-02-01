@@ -98,3 +98,37 @@ D:\coding\visual studio 2022\assignment1\FarmersMarket\obj\Debug\net6.0-windows\
 D:\coding\visual studio 2022\assignment1\FarmersMarket\obj\Debug\net6.0-windows\ref\FarmersMarketApp.dll
 D:\coding\visual studio 2022\assignment1\FarmersMarket\obj\Debug\net6.0-windows\Sales.g.cs
 D:\coding\visual studio 2022\assignment1\FarmersMarket\obj\Debug\net6.0-windows\Sales.baml
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\FarmersMarketApp.exe
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\FarmersMarketApp.deps.json
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\FarmersMarketApp.runtimeconfig.json
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\FarmersMarketApp.dll
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\FarmersMarketApp.pdb
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp.csproj.AssemblyReference.cache
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\Admin.g.cs
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\ListAll.g.cs
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\Sales.g.cs
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\App.g.cs
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp_MarkupCompile.cache
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp_MarkupCompile.lref
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\Admin.baml
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\ListAll.baml
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\MainWindow.baml
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\Sales.baml
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp.g.resources
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp.AssemblyInfoInputs.cache
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp.AssemblyInfo.cs
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp.csproj.CoreCompileInputs.cache
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp.csproj.CopyComplete
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp.dll
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\refint\FarmersMarketApp.dll
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp.pdb
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\FarmersMarketApp.genruntimeconfig.cache
+D:\coding\visual studio 2022\assignment1\FarmersMarket _backup\obj\Debug\net6.0-windows\ref\FarmersMarketApp.dll
