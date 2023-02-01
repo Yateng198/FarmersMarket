@@ -17,7 +17,7 @@
                 </Style>
             </Button.Resources>
         </Button>
-        <Button Content="Customer" HorizontalAlignment="Left" Margin="502,353,0,0" VerticalAlignment="Top" Height="72" Width="191" FontSize="20" Click="Button_Click_1" Background="{x:Null}" FontFamily="Comic Sans MS" FontWeight="Bold" Opacity="0.6" BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" >
+        <Button Content="Sales" HorizontalAlignment="Left" Margin="502,353,0,0" VerticalAlignment="Top" Height="72" Width="191" FontSize="20" Click="Button_Click_1" Background="{x:Null}" FontFamily="Comic Sans MS" FontWeight="Bold" Opacity="0.6" BorderThickness="0"  Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" >
             <Button.Resources>
                 <Style TargetType="{x:Type Border}">
                     <Setter Property="CornerRadius" Value="10"/>

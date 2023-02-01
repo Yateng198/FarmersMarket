@@ -35,7 +35,7 @@ namespace FarmersMarketApp
         private async void listDB()
         {
             //Set up connection 
-            SqlConnection con = new SqlConnection("Data Source=DESKTOP-1AHTENP;Initial Catalog=FarmersMarket;Integrated Security=True;Pooling=False");
+            SqlConnection con = new SqlConnection("Data Source=LAPTOP-DT6BMRBG;Initial Catalog=final;Integrated Security=True");
             try
             {
                 await Task.Run(() =>
